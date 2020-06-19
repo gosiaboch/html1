@@ -1,0 +1,60 @@
+body {
+    font-family: "Helvetica Neue", sans-serif; /* Latin Extended na GoogleFonts*/
+}
+
+.container {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title {
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.login-title {
+    color: #555; /* HTML color picker */
+    font-size: 36px;
+    font-weight: 400;
+    display: block; /* będzie się znajdowało w jednym bloku*/
+}
+
+.signing-block {
+    width: 350px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.login-text {
+    text-align: center;
+}
+
+.form-signing {
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto; /* wartość pionowa i pozioma, zastępuje right, left auto */
+}
+
+.form-signing .form-control {
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    box-sizing: border-box; /* szerokość razem z ramkami */
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box; /* dostosowanie się do preglądarek mozilla i safari */
+    position: relative; /* wpływamy gdzie ma to się znajdować */
+}
+
+.form-signing input {
+    width: 320px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+}
